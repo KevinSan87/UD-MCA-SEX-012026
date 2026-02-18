@@ -2,7 +2,7 @@
 Nome: Kevin de Santana Carvalho
 RA: 823210275
 Curso: Engenharia de Software
-Semestre: 5
+Semestre: 6
 Bairro: itaquera
 Se trabalha: Não trabalho
 Objetivo: Crescer na área de tecnologia, aprofundar meus conhecimentos em desenvolvimento e engenharia de software e construir uma carreira sólida na área.
