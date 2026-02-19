@@ -15,3 +15,12 @@ Bairro: São Miguel Paulista
 Se trabalha: Não trabalho
 Objetivo: Atuar como Dev FullStack 
 ---
+---
+Nome: Andre Rodrigues Castanheda
+RA: 823123713
+Curso: Engenharia de Software
+Semestre: 7
+Bairro: São Mateus
+Se trabalha: Trabalho como Analista de Mobilidade
+Objetivo: Aprimorar experiencias em dados, criação de KPIs e estruturação de dados
+---
