@@ -39,14 +39,6 @@ Bairro: Vila Monumento
 Se trabalha: Trabalho como Bancário
 Objetivo: Trabalhar na área da tecnologia ligada ao mercado financeiro
 ---
-Nome: Heloisy aparecida fernandes pereira 
-RA: 82320268
-Curso: Engenharia de Software
-Semestre: 6
-Bairro: portais
-Se trabalha: Não trabalho
-Objetivo: Aprimorar meus conhecimentos e programar em jogos 
----
 Nome: Gabriel Dias de Moraes Ferreira
 RA: 825157250
 Curso: Engenharia de Software
@@ -54,4 +46,12 @@ Semestre: 6
 Bairro: São Mateus
 Se trabalha: Trabalho com engenharia de dados
 Objetivo: Aprimorar meus conhecimentos e me tornar um engnheiro ou cientista de dados 
+---
+Nome: Heloisy aparecida fernandes pereira 
+RA: 82320268
+Curso: Engenharia de Software
+Semestre: 6
+Bairro: portais
+Se trabalha: Não trabalho
+Objetivo: Aprimorar meus conhecimentos e programar em jogos 
 ---
