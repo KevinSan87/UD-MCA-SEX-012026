@@ -39,3 +39,11 @@ Bairro: portais
 Se trabalha: Não trabalho
 Objetivo: Aprimorar meus conhecimentos e programar em jogos 
 ---
+Nome: Gabriel Dias de Moraes Ferreira
+RA: 825157250
+Curso: Engenharia de Software
+Semestre: 6
+Bairro: São Mateus
+Se trabalha: Trabalho com engenharia de dados
+Objetivo: Aprimorar meus conhecimentos e me tornar um engnheiro ou cientista de dados 
+---
