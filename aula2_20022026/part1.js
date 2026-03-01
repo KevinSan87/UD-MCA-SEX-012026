@@ -1,3 +1,4 @@
+//Nome: Kevin de Santana Carvalho
 let lista = [
   "Maçã", "Banana", "Laranja", "Uva", "Pera",
   "Abacaxi", "Manga", "Morango", "Kiwi", "Limão",

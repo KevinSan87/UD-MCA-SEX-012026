@@ -1,3 +1,4 @@
+//Nome: Kevin de Santana Carvalho
 let produtos = [
   { nome: "Camisa", preco: 50, estoque: 10 },
   { nome: "Calça", preco: 100, estoque: 5 },
