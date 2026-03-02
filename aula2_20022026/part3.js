@@ -1,4 +1,4 @@
-//Nome: Kevin de Santana Carvalho
+//Nome: Kevin de Santana Carvalho RA:823210275
 let produtos = [
   { nome: "Camisa", preco: 50, estoque: 10 },
   { nome: "Calça", preco: 100, estoque: 5 },

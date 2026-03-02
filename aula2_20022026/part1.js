@@ -1,4 +1,4 @@
-//Nome: Kevin de Santana Carvalho
+//Nome: Kevin de Santana Carvalho RA:823210275
 let lista = [
     "Maçã", "Banana", "Laranja", "Uva", "Pera",
     "Abacaxi", "Manga", "Morango", "Kiwi", "Limão",
