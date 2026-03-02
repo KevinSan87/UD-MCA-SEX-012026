@@ -52,7 +52,7 @@ for (let i = 1; i < produtos.length; i++) {
 
 console.log(maior);
 
-
+//===================================================================================================================
 //Nome: Gustavo de Cassio Gomes Perez - 823116201
 let produtosGustavo = [
   { nome: 'notebook', preco: 1500, estoque: 15 },
@@ -90,6 +90,8 @@ for(let i = 0 ; i <= produtos.length ; i++){
 
 // F. Qual objeto possui maior estoque?
 // pen drive 64GB
+
+//===================================================================================================================
 // Nome:Heloisy Aparecida RA:82320268
 let catalogoJogos = [
     { nome: 'Call of Duty', preco: 350, estoque: 10 },

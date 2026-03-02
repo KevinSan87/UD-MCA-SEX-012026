@@ -48,7 +48,7 @@ for (let i = 0; i < lista.length; i++) {
     console.log(lista[i]);
 }
 
-
+//===================================================================================================================
 //Nome: Gustavo de Cassio Gomes Perez - 823116201
 let arrayDeNomes=['Gustavo','Arthur', 'Beatriz', 'Caio', 'Diana', 'Eduardo', 'Fernanda', 'Gabriel', 
                     'Helena', 'Ícaro', 'Júlia', 'Kevin', 'Larissa', 'Miguel', 'Natália', 'Otávio', 'Patrícia', 
@@ -70,6 +70,8 @@ arrayDeNomes.push('Victor')
 for (let i = 0; i < arrayDeNomes.length; i++){
     console.log(arrayDeNomes[i]);
 }
+
+//===================================================================================================================
 // Nome:Heloisy Aparecida RA:82320268
 let listaJogos = [
     'League of Legends', 'Valorant', 'Minecraft', 'Roblox', 'Counter-Strike',
