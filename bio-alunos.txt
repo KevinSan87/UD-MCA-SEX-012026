@@ -15,3 +15,51 @@ Bairro: São Miguel Paulista
 Se trabalha: Não trabalho
 Objetivo: Atuar como Dev FullStack 
 ---
+Nome: Andre Rodrigues Castanheda
+RA: 823123713
+Curso: Engenharia de Software
+Semestre: 7
+Bairro: São Mateus
+Se trabalha: Trabalho como Analista de Mobilidade
+Objetivo: Aprimorar experiencias em dados, criação de KPIs e estruturação de dados
+---
+Nome: Eric Bortoleto Silva
+RA: 82325822
+Curso: Engenharia de Software
+Semestre: 6
+Bairro: Jardim Imperador
+Se trabalha: Trabalho como Desenvolvedor Android
+Objetivo: Aprimorar meus conhecimentos sobre Usabilidade, garantindo uma boa experiencia para os usuários de meus apps.
+---
+Nome: Jessica Thais Quenallata Cuela
+RA: 82423659
+Curso: Engenharia de Software 
+Semestre: 4° Semestre
+Bairro: Pq Vl Maria
+Trabalha: Trabalho com Qualidade de Software 
+Objetivo: Ser engenheira de software Full Stack
+
+Nome: Lucas Melo Almeida dos Santos
+RA: 82327243
+Curso: Engenharia de Software
+Semestre: 6
+Bairro: Vila Monumento
+Se trabalha: Trabalho como Bancário
+Objetivo: Trabalhar na área da tecnologia ligada ao mercado financeiro
+---
+Nome: Gabriel Dias de Moraes Ferreira
+RA: 825157250
+Curso: Engenharia de Software
+Semestre: 6
+Bairro: São Mateus
+Se trabalha: Trabalho com engenharia de dados
+Objetivo: Aprimorar meus conhecimentos e me tornar um engnheiro ou cientista de dados 
+---
+Nome: Heloisy aparecida fernandes pereira 
+RA: 82320268
+Curso: Engenharia de Software
+Semestre: 6
+Bairro: portais
+Se trabalha: Não trabalho
+Objetivo: Aprimorar meus conhecimentos e programar em jogos 
+---
