@@ -26,7 +26,7 @@ console.log("Cor:", produto.cor);
 console.log("Preço:", produto.preco);
 console.log("Estoque:", produto.estoque);
 
-
+//===================================================================================================================
 //Nome: Gustavo de Cassio Gomes Perez - 823116201
 let produto = {
     nome:'notebook',
@@ -46,6 +46,8 @@ produto.estoque = 80;
 
 //D. Imprima todas as propriedades no console.
 console.log(produto);
+
+//===================================================================================================================
 //Nome:Heloisy Aparecida RA:82320268
 let jogoFavorito = {
     nome: 'The Legend of Zelda',
