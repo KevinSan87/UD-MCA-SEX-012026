@@ -1,3 +1,7 @@
+// Por André Castanheda
+
+// PT.1 ARRAY SIMPLES
+
 let listaTecnologias = [
 "HTML","CSS","JavaScript","Python","Java",
 "C#","PHP","React","Node.js","SQL",
@@ -21,4 +25,22 @@ listaTecnologias.push("Inteligência Artificial");
 
 for (let i = 0; i < listaTecnologias.length; i++) {
 console.log(listaTecnologias[i]);
+}
+
+// PT.2 - OBJETO
+
+let produto = {
+    nome: "Notebook",
+    cor: "Prata",
+    preco: 3500,
+    estoque: 50
+};
+
+console.log("Nome:", produto.nome);
+console.log("Preço:", produto["preco"]);
+
+produto.estoque = 80;
+
+for (let chave in produto) {
+    console.log(chave + ":", produto[chave]);
 }
