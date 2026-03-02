@@ -1,4 +1,4 @@
-// PARTE 3 (ARRAY DE OBJETOS)
+// PARTE 3 (ARRAY DE OBJETOS) -  André Castanheda
 
 
 let produtos = [

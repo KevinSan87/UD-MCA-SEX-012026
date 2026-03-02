@@ -1,4 +1,4 @@
-// PARTE 1 - ARRAY SIMPLES
+// PARTE 1 - ARRAY SIMPLES - André Castanheda
 
 let listaTecnologias = [
 "HTML","CSS","JavaScript","Python","Java",

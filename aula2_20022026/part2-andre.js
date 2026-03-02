@@ -1,4 +1,4 @@
-//PARTE 2 (OBJETO)
+//PARTE 2 (OBJETO) -  André Castanheda
 
 let nomeObjeto = {
     nome: "Iphone",
