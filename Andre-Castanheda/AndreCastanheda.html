@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andre Castanheda • Perfil</title>
+
+  <!-- CSS está em Andre-Castanheda/CSS/style.css -->
+  <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+
+<body>
+  <!-- glows de fundo -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+  <div class="bg-glow glow-3"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <span class="brand-text">Andre Castanheda</span>
+    </div>
+
+    <nav class="nav">
+      <a href="#sobre">Sobre</a>
+      <a href="#skills">Skills</a>
+      <a href="#contato">Contato</a>
+      <a class="pill" href="https://github.com/droniis" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="sobre">
+      <div class="hero-left">
+        <p class="kicker">DRONES • PERFIL</p>
+
+        <h1 class="title">
+         André <span class="neon neon-anim">"drones"</span> Castanheda
+        </h1>
+
+        <p class="subtitle">
+          Olá, meu nome é <strong>Andre Castanheda</strong> e estou cursando <strong>Engenharia de Software</strong>.
+          Curto tecnologia, dados e projetos com impacto real.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#contato">Falar comigo</a>
+          <a class="btn ghost" href="https://github.com" target="_blank" rel="noopener noreferrer">Ver GitHub</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-value">T3</span>
+            <span class="stat-label">Entrega</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">HTML</span>
+            <span class="stat-label">Estrutura</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">CSS</span>
+            <span class="stat-label">Estilo</span>
+          </div>
+        </div>
+
+        <p class="hint">
+          Dica: clique na imagem para ver o cartão girar e mostrar o mini currículo.
+        </p>
+      </div>
+
+      <div class="hero-right">
+        <!-- CARTÃO 3D (clica e vira) -->
+        <button class="flip-wrap" id="flipBtn" type="button" aria-pressed="false" aria-label="Virar cartão do perfil">
+          <div class="flip-card" id="flipCard">
+            <!-- FRENTE -->
+            <div class="flip-face flip-front">
+              <img class="photo" src="minha-foto.png" alt="Foto do Andre Castanheda">
+              <div class="photo-overlay"></div>
+              <div class="photo-badge">CLIQUE</div>
+              <div class="scanline"></div>
+            </div>
+
+            <!-- VERSO -->
+            <div class="flip-face flip-back">
+              <div class="back-top">
+                <div class="tag">Mini currículo</div>
+                <div class="role">Analista de Mobilidade</div>
+                <div class="edu">Engenharia de Software • <strong>8º semestre</strong></div>
+              </div>
+
+              <div class="back-grid">
+                <div class="back-card">
+                  <h3>Skills</h3>
+                  <ul>
+                    <li>Gestão de transporte corporativo</li>
+                    <li>Indicadores (KPIs) & análises</li>
+                    <li>Automação de fluxos</li>
+                    <li>Comunicação com áreas & fornecedor</li>
+                  </ul>
+                </div>
+
+                <div class="back-card">
+                  <h3>Foco</h3>
+                  <p>
+                    Melhorar experiência do colaborador, eficiência operacional e tomada de decisão com dados.
+                  </p>
+                </div>
+              </div>
+
+              <div class="back-footer">
+                <span class="chip">#dados</span>
+                <span class="chip">#processos</span>
+                <span class="chip">#mobilidade</span>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card" id="skills">
+        <h2 class="card-title">Skills (Tech)</h2>
+        <ul class="list">
+          <li>HTML & CSS</li>
+          <li>JavaScript (básico)</li>
+          <li>Git / GitHub</li>
+          <li>Lógica & estruturas</li>
+          <li>Power BI</li>
+          <li>PowerAutomate</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">Objetivo</h2>
+        <p class="card-text">
+          Evoluir em desenvolvimento e dados, criando soluções bem estruturadas e fáceis de manter.
+        </p>
+      </article>
+
+      <article class="card" id="contato">
+        <h2 class="card-title">Contato</h2>
+        <p class="card-text"><strong>Email:</strong> contato.andrecast@gmail.com</p>
+
+        <div class="links">
+          <a class="link" href="https://www.linkedin.com/in/andr%C3%A9-castanheda/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="link" href="https://github.com/droniis" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Andre Castanheda • Atividade T3</p>
+    </footer>
+  </main>
+
+  <script>
+    // ano no footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // flip / rotação ao clicar
+    const btn = document.getElementById("flipBtn");
+    const card = document.getElementById("flipCard");
+
+    btn.addEventListener("click", () => {
+      const isFlipped = card.classList.toggle("is-flipped");
+      btn.setAttribute("aria-pressed", String(isFlipped));
+    });
+
+    // opcional: ESC volta pro lado da foto
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        card.classList.remove("is-flipped");
+        btn.setAttribute("aria-pressed", "false");
+      }
+    });
+  </script>
+</body>
+</html>
+

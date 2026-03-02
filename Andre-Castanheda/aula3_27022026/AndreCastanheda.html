@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andre Castanheda • Perfil</title>
+
+  <!-- CSS está em Andre-Castanheda/CSS/style.css -->
+  <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+
+<body>
+  <!-- brilho / neon de fundo -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <span class="brand-text">Andre Castanheda</span>
+    </div>
+
+    <nav class="nav">
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+      <a class="pill" href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="sobre">
+      <div class="hero-left">
+        <p class="kicker">Atividade T3 • Perfil</p>
+        <h1 class="title">
+          Meu perfil com vibe <span class="neon">neon</span>
+        </h1>
+
+        <p class="subtitle">
+          Olá, meu nome é <strong>Andre Castanheda</strong> e estou estudando Engenharia de Software.
+          Curto tecnologia, dados e projetos com impacto real.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#contato">Falar comigo</a>
+          <a class="btn ghost" href="https://github.com" target="_blank" rel="noopener noreferrer">Ver GitHub</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-value">T3</span>
+            <span class="stat-label">Entrega</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">HTML</span>
+            <span class="stat-label">Estrutura</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">CSS</span>
+            <span class="stat-label">Estilo</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="photo-card">
+          <!-- sua foto está em Andre-Castanheda/aula3_27022026/minha-foto.png -->
+          <img class="photo" src="./aula3_27022026/minha-foto.png" alt="Minha foto" />
+          <div class="photo-overlay"></div>
+          <div class="photo-badge">ALUNO</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2 class="card-title">Skills</h2>
+        <ul class="list">
+          <li>HTML & CSS</li>
+          <li>JavaScript (básico)</li>
+          <li>Lógica & estruturas</li>
+          <li>Git / GitHub</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">Objetivo</h2>
+        <p class="card-text">
+          Evoluir em desenvolvimento e dados, criando soluções bem estruturadas e fáceis de manter.
+        </p>
+      </article>
+
+      <article class="card" id="contato">
+        <h2 class="card-title">Contato</h2>
+        <p class="card-text"><strong>Email:</strong> andrec@email.com</p>
+
+        <div class="links">
+          <a class="link" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="link" href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Andre Castanheda • Atividade T3</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
