@@ -185,6 +185,9 @@ h1 {
 .social-links a, .footer-socials a {
     color: var(--text);
     transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-links a:hover, .footer-socials a:hover {
@@ -192,7 +195,8 @@ h1 {
     transform: translateY(-3px);
 }
 
-.social-links i, .footer-socials i {
+/* Atualizado de 'i' para 'svg' */
+.social-links svg, .footer-socials svg {
     width: 24px;
     height: 24px;
 }
