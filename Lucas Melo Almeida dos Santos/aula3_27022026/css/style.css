@@ -1,0 +1,47 @@
+body{
+    background-color:#f4f4f4;
+    font-family:Arial, Verdana, sans-serif;
+    margin:0;
+}
+
+header{
+    background-color:#003366;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.perfil{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.perfil img{
+    width:180px;
+    border-radius:50%;
+}
+
+.card{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+a{
+    color:darkred;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
