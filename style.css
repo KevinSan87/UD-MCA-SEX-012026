@@ -1,0 +1,64 @@
+/* Configurações Gerais */
+body {
+    background-color: #f0f2f5; /* Cor de fundo da página */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte personalizada */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #003366; /* Cor diferente para o header */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Estrutura do Conteúdo */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* Classe de Destaque (conforme exemplo da atividade) */
+.destaque {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.fotoPerfil {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #003366;
+    margin-top: 15px;
+}
+
+/* Links */
+a {
+    color: #d32f2f; /* Cor alterada dos links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 20px;
+    color: #666;
+}
