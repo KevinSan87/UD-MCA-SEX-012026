@@ -1,4 +1,4 @@
-/* Configurações Gerais */
+
 body {
     background-color: #f0f2f5; /* Cor de fundo da página */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte personalizada */
@@ -8,15 +8,15 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
+
 header {
-    background-color: #003366; /* Cor diferente para o header */
+    background-color: #003366; 
     color: white;
     padding: 40px 20px;
     text-align: center;
 }
 
-/* Estrutura do Conteúdo */
+
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -28,7 +28,7 @@ section {
     padding: 15px;
 }
 
-/* Classe de Destaque (conforme exemplo da atividade) */
+
 .destaque {
     background-color: white;
     padding: 20px;
@@ -45,9 +45,8 @@ section {
     margin-top: 15px;
 }
 
-/* Links */
 a {
-    color: #d32f2f; /* Cor alterada dos links */
+    color: #d32f2f; 
     text-decoration: none;
     font-weight: bold;
 }
