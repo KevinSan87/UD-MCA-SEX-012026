@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #750B0B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+h2 {
+    color: #750B0B;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    background-color: white;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.about{
+    margin-left: 50%;
+}
